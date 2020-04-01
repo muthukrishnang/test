@@ -1,0 +1,9 @@
+c:\users\mutg\documents\visual studio 2015\Projects\BulkTermSheetGenerator\BulkTermSheetGenerator\bin\Release\BulkTermSheetGenerator.exe.config
+c:\users\mutg\documents\visual studio 2015\Projects\BulkTermSheetGenerator\BulkTermSheetGenerator\bin\Release\BulkTermSheetGenerator.exe
+c:\users\mutg\documents\visual studio 2015\Projects\BulkTermSheetGenerator\BulkTermSheetGenerator\bin\Release\BulkTermSheetGenerator.pdb
+c:\users\mutg\documents\visual studio 2015\Projects\BulkTermSheetGenerator\BulkTermSheetGenerator\bin\Release\log4net.dll
+c:\users\mutg\documents\visual studio 2015\Projects\BulkTermSheetGenerator\BulkTermSheetGenerator\bin\Release\RestSharp.dll
+c:\users\mutg\documents\visual studio 2015\Projects\BulkTermSheetGenerator\BulkTermSheetGenerator\bin\Release\log4net.xml
+c:\users\mutg\documents\visual studio 2015\Projects\BulkTermSheetGenerator\BulkTermSheetGenerator\obj\Release\BulkTermSheetGenerator.csprojResolveAssemblyReference.cache
+c:\users\mutg\documents\visual studio 2015\Projects\BulkTermSheetGenerator\BulkTermSheetGenerator\obj\Release\BulkTermSheetGenerator.exe
+c:\users\mutg\documents\visual studio 2015\Projects\BulkTermSheetGenerator\BulkTermSheetGenerator\obj\Release\BulkTermSheetGenerator.pdb
