@@ -15,24 +15,6 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- task: NuGetToolInstaller@1
-
-- task: NuGetCommand@2
-  inputs:
-    restoreSolution: '$(solution)'
-
-- task: VSBuild@1
-  inputs:
-    solution: '$(solution)'
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
-
-- task: VSTest@2
-  inputs:
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
-
-
 - task: PowerShell@2
   inputs:
     targetType: 'inline'
@@ -42,16 +24,11 @@ steps:
       Write-Host "Hello World"
       
       curl -u "advan2ca:@DevSecOps2021" https://qualysapi.qg2.apps.qualys.com/qps/rest/portal/version
-
-
-      - task: CmdLine@2
-        inputs:
-          script: |
-            echo Write your commands here
-            
-            echo Hello world
-            
-            curl -u "advan2ca:@DevSecOps2021" https://qualysapi.qg2.apps.qualys.com/qps/rest/portal/version
-
-
-            
+- task: CmdLine@2
+  inputs:
+    script: |
+      echo Write your commands here
+      
+      echo Hello world
+      
+      curl -u "advan2ca:@DevSecOps2021" https://qualysapi.qg2.apps.qualys.com/qps/rest/portal/version
