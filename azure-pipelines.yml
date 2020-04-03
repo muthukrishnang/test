@@ -20,3 +20,20 @@ steps:
     script: |
       curl -u "advan2ca:@DevSecOps2021" https://qualysapi.qg2.apps.qualys.com/qps/rest/portal/version
 
+- task: PythonScript@0
+  inputs:
+    scriptSource: 'inline'
+    script: |
+      import requests
+      
+      url = "https://qualysapi.qg2.apps.qualys.com/qps/rest/3.0/download/was/wasscan/19859834"
+      
+      headers = {
+          'authorization': "Basic YWR2YW4yY2E6QERldlNlY09wczIwMjE=",
+          'cache-control': "no-cache",
+          'postman-token': "2c355385-00b8-ff40-5b90-349929d3afd4"
+          }
+      
+      response = requests.request("GET", url, headers=headers)
+      
+      print(response.text)
