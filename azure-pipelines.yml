@@ -20,8 +20,3 @@ steps:
     script: |
       curl -u "advan2ca:@DevSecOps2021" https://qualysapi.qg2.apps.qualys.com/qps/rest/portal/version
 
-- task: AzureKeyVault@1
-  inputs:
-    azureSubscription: 'Visual Studio Enterprise Subscription(1)(bb3a898b-f945-472a-87c6-9e274efc5d26)'
-    KeyVaultName: 'QualysCredentials'
-    SecretsFilter: '*'
